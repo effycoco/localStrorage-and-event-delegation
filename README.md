@@ -7,4 +7,5 @@ Build a menu, where you can add things, and you can check and uncheck them. The 
 We're also going to do something called 'event delegation'. When user add a new item and you want to add an event listener to it, since you can't add event listener to an element that only exist in the future, you should add event listener to its parent, and then check if an event is happened at your target element or not.
 
 JSON.stringfy() - object to string
+
 JSON.parse() - string to object
